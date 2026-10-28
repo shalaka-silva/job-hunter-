@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Node / Angular
+node_modules/
+.angular/
+dist/
+coverage/
+
+# Laravel
+/vendor/
+/apps/api/storage/logs/*
+/apps/api/storage/framework/cache/*
+/apps/api/storage/framework/sessions/*
+/apps/api/storage/framework/views/*
+/apps/api/bootstrap/cache/*.php
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local artifacts
+*.log
+tmp/
